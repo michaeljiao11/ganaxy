@@ -11,7 +11,7 @@ import torch
 import random
 
 from loss_function import ContrastiveLoss
-from premodel import 
+from premodel import Identity, LinearLayer, ProjectionHead, PreModel
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
