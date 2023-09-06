@@ -13,6 +13,7 @@ import random
 from loss_function import ContrastiveLoss
 from premodel import Identity, LinearLayer, ProjectionHead, PreModel
 from premodel_dataset import GalaxyDataGen
+from simclr_classifier_dataset import SUPERGALAXYDataGen
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
